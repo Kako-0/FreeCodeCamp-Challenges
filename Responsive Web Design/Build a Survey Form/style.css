@@ -1,0 +1,97 @@
+* {
+	color: #fff;
+}
+html,
+body {
+	height: 100%;
+}
+
+body {
+	box-sizing: border-box;
+	font-size: 18px;
+	padding: 0;
+	margin: 0 auto !important;
+
+	background: linear-gradient(
+			90deg,
+			rgba(58, 58, 158, 0.8),
+			rgba(136, 136, 206, 0.7)
+		),
+		url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+			no-repeat fixed;
+	background-position: 0% -100px;
+	background-size: cover;
+}
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+#title {
+	padding-top: 2rem;
+	margin-bottom: 0;
+}
+
+#description {
+	font-size: 1.4rem;
+	margin-top: 0.2rem;
+	margin-bottom: 2rem;
+	opacity: 0.8;
+}
+
+#survey-form {
+	display: flex;
+	flex-direction: column;
+
+	background-color: #1a1a3bc9;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	width: 45vw;
+	padding: 3rem;
+}
+
+input,
+#dropdown {
+	height: 2.5rem;
+	padding: 0 1rem;
+	margin: 0.8rem 0;
+
+	font-size: 1rem;
+	border-radius: 5px;
+	color: rgb(90, 90, 90);
+}
+
+.recommend-label,
+.checkbox-label {
+	display: flex;
+	align-items: center;
+}
+.recommend-label input,
+.checkbox-label input {
+	margin: 0 10px;
+	vertical-align: middle;
+	transform: scale(1.5);
+}
+
+#dropdown option {
+	color: rgb(90, 90, 90);
+}
+
+#suggestions {
+	margin: 0.8rem 0;
+	padding: 1rem;
+	border: none;
+	border-radius: 5px;
+	resize: none;
+	color: rgb(90, 90, 90);
+}
+
+#submit {
+	background-color: #58b858;
+	height: 3rem;
+	border-radius: 5px;
+	font-size: 1.1rem;
+}
